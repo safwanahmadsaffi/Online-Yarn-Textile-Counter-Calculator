@@ -1,4 +1,4 @@
-# How to Use Yarn Count Calculation Systems
+# How to Use Yarn Count Calculation Systems In Textile Industry
 
 This document explains the **direct** and **indirect yarn count systems**, including formulas, unit conventions, and worked examples.
 
@@ -98,8 +98,11 @@ Count = Weight (g) / Length (km)
 
 ---
 
-## Quick Reference Guide
+## Quick Reference Guide Textile Industry
 - **Use Indirect Systems for**: Natural fibers (cotton, linen, wool)
 - **Use Direct Systems for**: Artificial fibers (polyester, nylon)
 - Higher indirect count = Finer yarn  
   Higher direct count = Coarser yarn
+
+---
+   By Safwan Ahmad Saffi
