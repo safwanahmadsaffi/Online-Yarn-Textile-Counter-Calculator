@@ -1,6 +1,19 @@
 # How to Use Yarn Count Calculation Systems In Textile Industry
-
+<br>
 This document explains the **direct** and **indirect yarn count systems**, including formulas, unit conventions, and worked examples.
+<br>
+## Table of Contents
+- [Table of Indirect Systems](#table-of-indirect-systems)
+- [Table of Direct Systems](#table-of-direct-systems)
+- [Calculation Examples](#calculation-examples)
+  - [Indirect System Example (English Cotton)](#indirect-system-example-english-cotton)
+  - [Direct System Example (Tex)](#direct-system-example-tex)
+- [Key Formulas](#key-formulas)
+  - [Indirect System](#indirect-system)
+  - [Direct System](#direct-system)
+- [Unit Conversion Factors](#unit-conversion-factors)
+- [Quick Reference Guide Textile Industry](#quick-reference-guide-textile-industry)
+
 
 ---
 
