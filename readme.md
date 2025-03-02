@@ -2,6 +2,7 @@
 <br>
 This document explains the **direct** and **indirect yarn count systems**, including formulas, unit conventions, and worked examples.
 <br>
+
 ## Table of Contents
 - [Table of Indirect Systems](#table-of-indirect-systems)
 - [Table of Direct Systems](#table-of-direct-systems)
