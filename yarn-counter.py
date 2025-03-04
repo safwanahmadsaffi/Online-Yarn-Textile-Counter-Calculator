@@ -97,3 +97,32 @@ if st.button('Calculate'):
         st.error("Cannot divide by zero - check your input values")
     except Exception as e:
         st.error(f"Error in calculation: {str(e)}")
+
+# New button to calculate count for all systems
+if st.button("Calculate for All Systems"):
+    try:
+        results = []
+
+        # Convert length and weight to standard units
+        for system, params in direct_systems.items():
+            converted_length = convert_length(length, length_unit, params['length_unit'])
+            converted_weight = convert_weight(weight, weight_unit, params['weight_unit'])
+            if converted_length > 0:
+                count = (converted_weight * params['denominator']) / converted_length
+                results.append(f"**{system} Count**: {count:.2f}")
+
+        for system, params in indirect_systems.items():
+            converted_length = convert_length(length, length_unit, params['length_unit'])
+            converted_weight = convert_weight(weight, weight_unit, params['weight_unit'])
+            if converted_weight > 0:
+                count = (converted_length * params['weight_per_unit']) / (converted_weight * params['length_per_hank'])
+                results.append(f"**{system} Count**: {count:.2f}'s")
+
+        # Display all results
+        for res in results:
+            st.success(res)
+
+    except ZeroDivisionError:
+        st.error("Cannot divide by zero - check your input values")
+    except Exception as e:
+        st.error(f"Error in calculation: {str(e)}")
