@@ -3,6 +3,7 @@
 This document explains the **direct** and **indirect yarn count systems**, including formulas, unit conventions, and worked examples.
 <br>
 
+
 ## Table of Contents
 - [Table of Indirect Systems](#table-of-indirect-systems)
 - [Table of Direct Systems](#table-of-direct-systems)
@@ -50,7 +51,7 @@ This document explains the **direct** and **indirect yarn count systems**, inclu
 
 ---
 
-## Calculation Examples
+## Calculation Examples in Textile
 
 ### Indirect System Example (English Cotton)
 **Problem**:  
@@ -82,7 +83,7 @@ Count = Weight (g) / Length (km)
 
 ---
 
-## Key Formulas
+## Key Formulas for Textile
 
 ### Indirect System
 1. **Basic Formula**:  
